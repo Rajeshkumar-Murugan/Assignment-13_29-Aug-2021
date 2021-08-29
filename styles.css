@@ -1,0 +1,365 @@
+body{
+
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center; 
+}
+
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    padding-top: 10px;
+}
+p{
+    font-family: 'Lato', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#sedans{
+    background-color: hsl(30deg 77% 52%);
+    padding: 30px;
+    border-radius: 10px 10px 0px 0px;
+}  
+
+.sedansButton{
+    color:hsl(30deg 77% 52%);
+}
+
+
+#suvs{
+    background-color: hsl(185deg 98% 23%);
+    padding: 30px;
+    
+}
+.suvsButton{
+    color:hsl(185deg 98% 23%);
+}
+
+#luxury{
+    background-color:hsl(179deg 100% 13%);
+    padding: 30px; 
+    border-radius: 0px 0px 10px 10px;
+    
+}
+
+.luxuryButton{
+
+    color:hsl(179deg 100% 13%);
+}
+
+
+button{
+    color: white;
+    border-radius: 25px;
+    padding: 4px;
+    border-color: white;
+
+}
+
+label{
+    font-size: 15px;
+    padding-right:15px;
+    padding-left:15px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 10px;
+    padding-bottom: 10px;
+    width: auto;
+  }
+  
+  @media(min-width:411px){
+    section{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 15px;
+        }
+
+     }
+
+     @media(min-width:568px){
+        section{
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            font-size: 12px;
+            }
+            #sedans{
+                border-radius: 10px 0px 0px 10px;
+                }
+        
+            #luxury{
+               border-radius: 0px 10px 10px 0px;
+                
+                }
+                label{
+                    font-size: 10px;
+                    padding-right:15px;
+                    padding-left:15px;
+                }
+         }
+
+
+     @media(min-width:640px){
+        section{
+                font-size: 12px;
+            }
+         }
+
+  @media(min-width:650px){
+    section{
+
+        font-size: 20px;
+   
+        }
+
+
+   
+    }
+
+  @media(min-width:660px){
+    section{
+    
+        font-size: 20px;
+   
+        }
+    }   
+
+    @media(min-width:653px){
+        section{
+                font-size: 12px;
+       
+            }
+            button{
+                border-color: white;  
+                   }
+            label{
+                font-size: 10px;
+            }
+            img{
+                height: 3rem;
+            }
+        }  
+
+
+
+    @media(min-width:667px){
+        section{
+            font-size: 12px;
+            }
+        } 
+
+    @media(min-width:717px){
+        label{
+            font-size: 10px;
+        }
+    }
+        
+    @media(min-width:720px){
+            section{
+                font-size: 15px;
+                }
+            button{
+                border-color: white;   
+            }
+            label{
+                font-size: 10px;
+            }
+        }   
+
+        @media(min-width:731px){
+            section{
+                font-size: 15px;           
+                }
+            } 
+
+
+        @media(min-width:768px){
+            section{
+            
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                font-size: 25px;
+           
+                }
+                #sedans{
+                    border-radius: 10px 10px 0px 0px;
+                }
+            
+                #luxury{
+                   border-radius: 0px 0px 10px 10px;
+                    
+                }
+                button{
+                    padding: 20px;                  
+                }
+                label{
+                    font-size: 22px;
+                }
+                img{
+                    height: 5rem;
+                }
+            } 
+
+
+            @media(min-width:812px){
+                section{
+                
+                    display: flex;
+                    align-items: center;
+                    flex-direction: row;
+                    font-size: 15px;              
+                    }
+                    button{                        
+                        padding: 5px;  
+                    }
+                    label{
+                        font-size: 12px;
+
+                    }
+                    img{
+                        height: 3rem;
+                    }
+                    #sedans{
+                        border-radius: 10px 0px 0px 10px;
+                    }
+                
+                    #luxury{
+                       border-radius: 0px 10px 10px 0px;
+                        
+                    }
+
+                } 
+
+
+            @media(min-width:823px){
+                section{
+                
+                    display: flex;
+                    align-items: center;
+                    flex-direction: row;
+                    font-size: 15px;
+               
+                    }
+                    button{
+
+                        padding: 5px;
+ 
+                    }
+                    label{
+                        font-size: 10px;
+
+                    }
+                    img{
+                        height: 3rem;
+                    }
+                    
+                
+                } 
+
+
+  @media(min-width:900px){
+    section{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: auto;
+        font-size: 20px;
+        }
+        #sedans{
+            border-radius: 10px 0px 0px 10px;
+        }
+    
+        #luxury{
+           border-radius: 0px 10px 10px 0px;
+            
+        }
+    
+  }
+
+  @media(min-width:1000px){
+    section{
+        display: flex;
+        justify-content: center;
+        width: 50rem;
+        
+        }
+    
+  }
+
+
+
+  @media(min-width:1024px){
+    section{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        font-size: 25px;
+        }
+        label{
+            font-size: 15px;
+
+        }
+        img{
+            height: 5rem;
+        }
+        #sedans{
+            border-radius: 10px 10px 0px 0px;
+        }
+    
+        #luxury{
+           border-radius: 0px 0px 10px 10px;
+            
+        }
+    
+  }
+
+
+ @media(min-width:1025px){
+    section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: auto;
+        font-size: 30px;
+        
+        }
+        #sedans{
+            border-radius: 10px 0px 0px 10px;
+        }
+    
+        #luxury{
+           border-radius: 0px 10px 10px 0px;
+            
+        }
+
+  }
+
+  @media(min-width:1367px){
+    section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 70%;
+        font-size: 20px;       
+        }
+
+        button{
+            padding: 10px;
+        }
+        label{
+            font-size: 15px;
+        }
+        img{
+            height: 3rem;
+        }
+    }
